@@ -1,0 +1,1 @@
+-- ReadSpark schema (COPPA-safe)
