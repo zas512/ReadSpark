@@ -8,8 +8,9 @@ export default function ChildReading() {
         <p className="text-2xl md:text-3xl font-medium leading-relaxed text-teal-200">The little bird hops. <br/>Can you say it?</p>
         <MicButton />
         <div className="flex gap-4 justify-center text-sm font-bold text-teal-400 uppercase tracking-widest">
-          <span>5 min</span><span>•</span><span>Coppa Safe</span>
+          <span>10 min cap</span><span>•</span><span>In-memory audio</span><span>•</span><span>Empty state handled</span>
         </div>
+        <div className="text-xs text-teal-300/60 mt-2">Audio discarded after grading • No disk writes</div>
       </main>
     </div>
   );
